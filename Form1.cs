@@ -21,7 +21,6 @@ namespace oscarandbirthday
         {
             string years = textBox1.Text;
             int years1 = Convert.ToInt32(years);
-            if (years1 > 2021)
             {
                 label5.Text = "Еще не известно, скоро узнаем...";
             }
