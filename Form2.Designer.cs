@@ -37,6 +37,7 @@ namespace oscarandyearofbirth
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(74)))), ((int)(((byte)(163)))));
             this.label1.Font = new System.Drawing.Font("Calibri", 15F);
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(166, 9);
@@ -60,7 +61,7 @@ namespace oscarandyearofbirth
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.RoyalBlue;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(0)))), ((int)(((byte)(156)))));
             this.ClientSize = new System.Drawing.Size(584, 361);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
