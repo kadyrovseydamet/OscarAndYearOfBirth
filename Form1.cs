@@ -1,4 +1,5 @@
-﻿using System;
+﻿using oscarandyearofbirth;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,6 +22,7 @@ namespace oscarandbirthday
         {
             string years = textBox1.Text;
             int years1 = Convert.ToInt32(years);
+            if (years1 > 2021)
             {
                 label5.Text = "Еще не известно, скоро узнаем...";
             }
@@ -401,6 +403,11 @@ namespace oscarandbirthday
         private void button2_Click(object sender, EventArgs e)
         {
             Close();
+        }
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.ShowDialog();
         }
     }
 }
