@@ -51,8 +51,7 @@ namespace oscarandbirthday
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(585, 70);
             this.label1.TabIndex = 0;
-            this.label1.Text = "В этой программе сможете узнать, какой фильм получил премию Оскара в Ваш год рожд" +
-    "ения.";
+            this.label1.Text = "Премия Оскара в Ваш год рождения!";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox1
