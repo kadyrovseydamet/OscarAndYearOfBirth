@@ -45,7 +45,7 @@ namespace oscarandbirthday
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Calibri", 12F);
+            this.label1.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(-1, -3);
             this.label1.Name = "label1";
@@ -61,31 +61,31 @@ namespace oscarandbirthday
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.BackColor = System.Drawing.Color.White;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Calibri", 12F);
-            this.textBox1.Location = new System.Drawing.Point(354, 152);
+            this.textBox1.Font = new System.Drawing.Font("Calibri", 15F);
+            this.textBox1.Location = new System.Drawing.Point(361, 148);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(67, 27);
+            this.textBox1.Size = new System.Drawing.Size(67, 25);
             this.textBox1.TabIndex = 2;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
-            this.label3.Font = new System.Drawing.Font("Calibri", 12F);
+            this.label3.Font = new System.Drawing.Font("Calibri", 15F);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(142, 153);
+            this.label3.Location = new System.Drawing.Point(98, 148);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(209, 25);
+            this.label3.Size = new System.Drawing.Size(260, 25);
             this.label3.TabIndex = 3;
             this.label3.Text = "Введите Ваш год рождения -";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4
             // 
-            this.label4.Font = new System.Drawing.Font("Calibri", 12F);
+            this.label4.Font = new System.Drawing.Font("Calibri", 15F);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(422, 153);
+            this.label4.Location = new System.Drawing.Point(432, 148);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 25);
+            this.label4.Size = new System.Drawing.Size(42, 25);
             this.label4.TabIndex = 4;
             this.label4.Text = "год.";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
